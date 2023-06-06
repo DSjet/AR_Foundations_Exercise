@@ -1,0 +1,10 @@
+﻿SFX and BGM Used
+- BGM : 🛰️ Ambient Space Synth Music (For Videos) "Adrift" by Hayden Folker 🇺🇸 - (https://youtu.be/Ifzb0BZyzT0)
+- SFX : FIRE SOUND EFFECT IN HIGH QUALITY by n Beats - (https://youtu.be/mz9ftphTWTM)
+
+Icons Used
+- Camera icons created by Freepik - (https://www.flaticon.com/free-icons/camera)
+
+Libraries
+- NativeGallery by yasirkula - (https://github.com/yasirkula/UnityNativeGallery)
+- NativeShare by yasirkula - (https://github.com/yasirkula/UnityNativeShare)
