@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class TouchInteract : MonoBehaviour
 {
+    private Animator _animator;
+
     private float initialDistance;
     private Vector3 initialScale;
+
     private float first_point;
     private float last_point;
     private float swipeDistance;
-    private Animator _animator;
+
+    BlinkingObject blinkScript;
 
     private void Awake()
     {
@@ -19,7 +23,6 @@ public class TouchInteract : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-
         ScaleObjectByPinch();
         RotateImageBySwipe();
 
@@ -29,6 +32,9 @@ public class TouchInteract : MonoBehaviour
     {
         if (Input.touchCount == 1)
         {
+            // Stop Blinking When The User Interacts with Object
+            blinkScript.StopBlinking();
+
             var touch = Input.GetTouch(0);
             if (touch.phase == TouchPhase.Began)
             {
@@ -54,6 +60,8 @@ public class TouchInteract : MonoBehaviour
         // detect pinch
         if (Input.touchCount == 2)
         {
+            // Stop Blinking When The User Interacts with Object
+            blinkScript.StopBlinking();
             if (!_animator.enabled)
             {
                 _animator.enabled = true;

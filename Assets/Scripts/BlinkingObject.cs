@@ -10,7 +10,6 @@ public class BlinkingObject : MonoBehaviour
     private Renderer objectRenderer;
     private bool isBlinking = false;
 
-    // Start is called before the first frame update
     void Start()
     {
         objectRenderer = GetComponent<Renderer>();
@@ -26,7 +25,7 @@ public class BlinkingObject : MonoBehaviour
         }
     }
 
-    private void StopBlinking()
+    public void StopBlinking()
     {
         if (isBlinking)
         {
