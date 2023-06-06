@@ -3,7 +3,27 @@ guid: cf310c93a8eff014b8df5960603d7ffb
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aruvana
+    second: {fileID: 2100000, guid: 3c12c00c97af8af4a94f9118a1cd691a, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: aruvana_Base_Color
+    second: {fileID: 2800000, guid: 8b2ae6c102c456849bcf7fa26b37cd28, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: aruvana_Metallic
+    second: {fileID: 2800000, guid: f11aef3b16d0fdc4e822d6f0807d7300, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: aruvana_Roughness
+    second: {fileID: 2800000, guid: fef289c2cec8f7343a85107c2b05a1a6, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
