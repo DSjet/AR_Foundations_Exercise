@@ -263,6 +263,7 @@ GameObject:
   - component: {fileID: 388525030}
   - component: {fileID: 388525037}
   - component: {fileID: 388525036}
+  - component: {fileID: 388525038}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -329,6 +330,14 @@ MonoBehaviour:
   m_MaxNumberOfMovingImages: 1
   m_TrackedImagePrefab: {fileID: 3175393577643247920, guid: 130980d5a0f460d44910635a65c9fe12,
     type: 3}
+--- !u!81 &388525038
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388525029}
+  m_Enabled: 1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
